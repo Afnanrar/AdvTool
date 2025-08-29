@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Supabase functions (exclude from Vercel deployment)
+supabase/functions/
+supabase/config.toml
